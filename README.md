@@ -1,4 +1,4 @@
-# Ultimate-Cursed-Mod-SC
+# Ultimate Cursed Mod
 The most cursed Survivalcraft mod... This mods aims to make Survivalcraft as cursed and as goofy as possible.
 
 ## Screenshots
