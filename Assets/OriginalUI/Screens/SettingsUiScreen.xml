@@ -1,0 +1,72 @@
+<Screen xmlns="runtime-namespace:Game">
+
+  <PanoramaWidget />
+
+  <StackPanelWidget Direction="Horizontal">
+
+    <CanvasWidget Style="{Widgets/TopBarContents}" >
+      <LabelWidget Name="TopBar.Label" Text="Adjust User Interface Settings" />
+    </CanvasWidget>
+
+    <CanvasWidget Margin="10, 20">
+      <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="128, 128, 128, 128" />
+      <ScrollPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3, 3">
+        <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="[SettingsUiScreen:1]" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="LanguageButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="[SettingsUiScreen:10]" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="DisplayLogButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Name="WindowModeContainer" Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Window Mode:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="WindowModeButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="UI Scale:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <SliderWidget Name="UIScaleSlider" Size="Infinity, 60" VerticalAlignment="Center" Granularity="0.05" MinValue="0.5" MaxValue="1.0" Margin="20, 0"/>
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="UI Vertical Flip:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="UpsideDownButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Hide Move/Look Pads:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="HideMoveLookPads" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Show UI in screenshots:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="ShowGuiInScreenshotsButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Show logo in screenshots:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="ShowLogoInScreenshotsButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Screenshot resolution:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="ScreenshotSizeButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+          <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
+            <LabelWidget Text="Community Content:" Font="{Fonts/Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <BevelledButtonWidget Name="CommunityContentModeButton" Style="{OriginalUI/Styles/ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
+          </UniformSpacingPanelWidget>
+
+        </StackPanelWidget>
+      </ScrollPanelWidget>
+    </CanvasWidget>
+
+  </StackPanelWidget>
+
+</Screen>
